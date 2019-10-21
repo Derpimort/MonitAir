@@ -71,7 +71,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         float zoom = mMap.getCameraPosition().zoom;
 
         //loadAQIdata(mMap);
-        loadAQIdataLocal(mMap);
+        loadAQIdata(mMap);
         darkCloud(0.01f,19.2183,72.9781,100000f/zoom,100000f/zoom);
     }
 
@@ -132,7 +132,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                                     // Get the current student (json object) data
                                     //dataList.add(new AQImodel(tempres.getString(1),tempres.getString(2),tempres.getString(3)));
-                                    darkCloud(Float.parseFloat(tempres.getString(3)),
+                                    darkCloud(1-Float.parseFloat(tempres.getString(3))/500,
                                             Double.parseDouble(tempres.getString(1)),
                                             Double.parseDouble(tempres.getString(2)),
                                             100000f, 100000f);
