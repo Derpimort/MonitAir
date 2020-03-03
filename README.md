@@ -14,14 +14,14 @@
     - All Software developers
 
 
-#### The project
+#### The Project:
 
 
     - Mainly focused on minimalistic UI for visualization of data
     - We'll keep updating it with interesting and creative facts to give the user a "fun while learning" vibe
 
 
-#### Workflow
+#### Workflow:
 
     - From the given data. We remove missing and out of range values (can maybe implement imputation techniques or the EM algo)
     - A python script watches the current directory and processes newly added files which conform to its data formatting.
@@ -30,7 +30,33 @@
     - API can deliver the latest 5 readings for a present location, latest 1 reading and all the readings by far in the history log(not optimized at all xD)
 
 
-#### Future prospects
+#### Future prospects:
 
     - The Sentinel 5p has the exact targeted data needed for complete AQI calculation. Just need a script to get that data regularly and away we go.
     - Redundant data can be eliminated easily for visualization purposes but for research we need to look at much more "Science" data.
+
+## TODO:
+- ServerSIDE:
+
+    - [ ] Scripts for realtime data fetch
+    - [ ] Use aggregated features for insights
+    - [ ] Use previous years data for today's predictions... LSTM
+    - [ ] Use epa gov resources for more data
+    - [ ] Add more formulae to get the most out of raw data
+    - [ ] Clean the db monthly and dump history into a json
+    - [ ] Add direct API calls for public data access
+    - [ ] Switch to something "NOT sql" 
+    
+- appSIDE:
+
+    - [ ] Use flutter?
+    - [ ] Decide a color theme
+    - [ ] SMOOTHER UI, CANT STRESS ENUF
+    - [ ] Dashboard with graphs, pie charts and animated metrics, look smexy
+    - [ ] Tabbed UI alongwith the dashboard for history and live map
+    - [ ] Improve the map dynamics and animations
+    - [ ] In-app helpful tips and popups
+    - [ ] Fetch tips from server? Better and flexible updation
+    - [ ] Notification popups? might be annoying tho
+    - [ ] Homescreen widget
+    - [ ] If possible get data directly from NASA sats with models prebuilt into the app to make it standalone iwthout relying on or servers.
