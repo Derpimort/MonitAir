@@ -10,24 +10,24 @@
 #### Us:
 
 
-    - 5 Techonology Geeks
-    - All Software developers
+    - 5 Technology Geeks.
+    - All Software developers.
 
 
 #### The Project:
 
 
-    - Mainly focused on minimalistic UI for visualization of data
-    - We'll keep updating it with interesting and creative facts to give the user a "fun while learning" vibe
+    - Mainly focused on minimalistic UI for visualization of data.
+    - We'll keep updating it with interesting and creative facts to give the user a "fun while learning" vibe.
 
 
 #### Workflow:
 
-    - From the given data. We remove missing and out of range values (can maybe implement imputation techniques or the EM algo)
+    - From the given data. We remove missing and out of range values (can maybe implement imputation techniques or the EM algo).
     - A python script watches the current directory and processes newly added files which conform to its data formatting.
-    - All the pollutant data is then averaged over 24hr and then we calculate the air quality index based on "A formula that we'll update in the future"
+    - All the pollutant data is then averaged over 24hr and then we calculate the air quality index based on "A formula that we'll update in the future".
     - All of this is then updated in the folder watched by the php script. The previous data gets moved into a history log.
-    - API can deliver the latest 5 readings for a present location, latest 1 reading and all the readings by far in the history log(not optimized at all xD)
+    - API can deliver the latest 5 readings for a present location, latest 1 reading and all the readings by far in the history log(not optimized at all xD).
 
 
 #### Future prospects:
@@ -60,3 +60,5 @@
     - [ ] Notification popups? might be annoying tho
     - [ ] Homescreen widget
     - [ ] If possible get data directly from NASA sats with models prebuilt into the app to make it standalone iwthout relying on or servers.
+
+LMAO gg
