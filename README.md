@@ -60,5 +60,3 @@
     - [ ] Notification popups? might be annoying tho
     - [ ] Homescreen widget
     - [ ] If possible get data directly from NASA sats with models prebuilt into the app to make it standalone iwthout relying on or servers.
-
-LMAO gg
